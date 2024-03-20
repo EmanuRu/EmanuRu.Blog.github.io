@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#Volver{
+    padding: 8px;
+    display: flex;
+    justify-content: end;
+}
+#atras{
+    background-color: rgb(161, 196, 248);
+    width: 60px;
+    font-family: monospace;
+    color: white;
+}
+
+.publicacion,.comentarios{
+    text-align: left;
+    margin: 20px;
+    color: #555;
+}
+
+.publicacion p{
+    padding: 10px 20px;
+    border: 2px solid #48e;
+}
+
+.publicacion h3{
+    color:#48e;
+    display: inline-block;
+}
+
+.tituYfech{
+    display: flex;
+}
+
+.divFechaHora{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 16%;
+    border-left: 2px solid #48e;
+    border-top: 2px solid #48e;
+
+}
+
+.divFechaHora p{
+    border: none !important;
+}
+
+.titCom{
+    margin-left: 0px;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.mensaje{
+    display: flex;
+    flex-direction: column;
+}
+
+.mensaje input{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 6px 10px;
+    border: none;
+    background-color: rgb(161, 196, 248);
+    color: #555;
+}
+
+.mensaje .enviar{
+    width: 60px;
+    height: 20px;
+    background-color:rgb(161, 196, 248);
+    color: white;
+    font-family: monospace;
+    margin: 1px;
+}
+
+.mensaje input::placeholder{
+    color: white;
+    font-family: monospace;
+}
+
+.titCom h3{
+    color: #555;
+    border-bottom: 2px solid #555;
+    width: fit-content;
+}
+
+.listaComentarios{
+    max-width: 90%;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.listaComentarios h2{
+    color: #48e;
+    font-family:monospace;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.listaComentarios p{
+    border-left: 2px solid #48e;
+    border-top: 2px solid #48e;
+    padding: 4px;
+}
